@@ -1,0 +1,106 @@
+/*---------------------------------------------
+    Plugin Name: bilalmghl Elementor Widgets
+    Author     : Muhammad Bilal Mughal
+    Email      : mehedidb@gmail.com;
+------------------------------------------------*/
+
+/* ADDONS CSS */
+/* #elementor .animated {
+  -webkit-animation-fill-mode: both !important;
+          animation-fill-mode: both !important; } */
+/* -------------------
+    CORE WIDGETS STYLE
+---------------------- */
+.elementor-widget-wp-widget-nav_menu ul,
+.elementor-widget-wp-widget-widget_pages ul,
+.elementor-widget-wp-widget-pages ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.elementor-widget-wp-widget-nav_menu ul li,
+.elementor-widget-wp-widget-widget_pages ul li,
+.elementor-widget-wp-widget-pages ul li{
+    display: block;
+    margin-bottom:20px;
+}
+.elementor-widget-wp-widget-nav_menu ul li a,
+.elementor-widget-wp-widget-widget_pages ul li a,
+.elementor-widget-wp-widget-pages ul li a{
+    display: block;
+}
+
+.elementor-widget-wp-widget-nav_menu ul li:last-child,
+.elementor-widget-wp-widget-widget_pages ul li:last-child,
+.elementor-widget-wp-widget-pages ul li:last-child{
+    margin-bottom: 0;
+}
+
+/* -------------------
+    GLOBAL ADDON CSS
+---------------------- */
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0 0 15px;
+}
+
+.owl-carousel .owl-item img{
+    max-width: 100%;
+    width:auto;
+}
+svg{
+    max-width: 100%;
+}
+
+
+
+/* .sevices-thumb{
+    margin: 0 0 30px;
+    border-radius: 5px;
+}
+.sevices-thumb .icon-box{
+    height: 50px;
+    font-size: 50px;
+    margin: 0 0 18px;
+}
+.sevices-thumb .title{
+    margin: 0 0 9px;
+    font-weight: 600;
+}
+.sevices-thumb .icon-box i,
+.sevices-thumb .title a,
+.sevices-thumb .text p{
+    transition: all .6s ease-in-out;
+    -moz-transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
+}
+.sevices-thumb-1{
+    text-align: center;
+} */
+/*sevices Thumb 2 Start*/
+.sevices-thumb{
+    text-align: center;
+    padding: 40px 40px 23px;
+    border-radius: 5px;
+    background-color: #21232e;
+    box-shadow: 0 0 0 1px rgba(186,186,186,0.028), 0 1.8vw 3vw -0.7vw rgba(0,0,0,0.06);
+    -webkit-box-shadow: 0 0 0 1px rgba(186,186,186,0.028), 0 1.8vw 3vw -0.7vw rgba(0,0,0,0.06);
+}
+.sevices-thumb .icon-box{
+    float: none;
+    width: auto;
+    height: 96px;
+    display: block;
+    font-size: 96px;
+    margin: 0 auto 37px;
+}
+.sevices-thumb .title{
+    font-size: 20px;
+    margin: 0 0 28px;
+}
+
+
+.sevices-thumb .icon-box{
+    color: #f9603e;
+}
